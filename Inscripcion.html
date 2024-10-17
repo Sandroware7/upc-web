@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripcion-UPC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <main>
+    <section class="seccion-inscripcion">
+        <header>
+            <nav>
+                <div>
+                    <a href="./index.html">
+                    <img src="./imagenes/UPC_logo_transparente.png" alt="logo upc" width="100" height="100">
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <h2>Inscripcion</h2>
+        <form>
+            <h3>Regístrate aquí:</h3>
+
+            <input type="text" name="nombres" placeholder="Nombres" required ><br>
+            <input type="text" name="apellidos" placeholder="Apellidos" required ><br>
+            <input type="text" name="dni" placeholder="DNI" required ><br>
+            <input type="text" name="celular" placeholder="Celular" required ><br>
+            <input type="email" name="email" placeholder="Correo electronico"><br>
+
+            <select name="generos">
+                <option value="">Elije tu genero</option>
+                <option value="masculino">masculino</option>
+                <option value="femenino">femenino</option>
+                <option value="LGTBIQ+">LGTBIQ+</option>
+            </select><br>
+
+            <select name="grado" required>
+                <option value="">Escoge tu grado</option>
+                <option value="3ro">3ro</option>
+                <option value="4to">4to</option>
+                <option value="5to">5to</option>
+                <option value="Ya termine el colegio">Ya termine el colegio</option>
+            </select><br>
+
+            <select name="sede" required>
+                <option value="">Escoge sede</option>
+                <option value="Campus Monterrico">Campus Monterrico</option>
+                <option value="Campus San Isidro">Campus San Isidro</option>
+                <option value="Campus Villa">Campus Villa</option>
+                <option value="Campus San Miguel">Campus San Miguel</option>
+            </select><br>
+            
+            <input type="text" name="carrera" placeholder="Carrera"><br>
+
+            <textarea name="mensaje"placeholder="Consultas o inquietudes"></textarea><br>
+
+            <input type="submit" value="Enviar mensaje"><br><br>
+
+            <input type="checkbox" name="autorizacion" required> Autorizo el tratamiento de mis datos personales para finalidades informativas y comerciales, conforme al siguiente enlace. Sin mi autorización, no podrán comunicarse conmigo.<br><br>
+            <input type="checkbox" name="autorizacion" required> Opcionalmente, autorizo el tratamiento de mis datos personales para las Finalidades Comerciales Adicionales descritas en el siguiente
+            <a href="https://www.upc.edu.pe/politicas-y-terminos/upc/finalidades-comerciales-adicionales.html" >enlace</a> 
+            
+            <br><br> 
+        </form>
+    </section>
+   </main>
+   <footer>
+    <p>&copy; 2024 UPC. Todos los derechos reservados.</p>
+   </footer>
+</body>
+</html>
